@@ -1,0 +1,549 @@
+/* --- CSS Reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+  font-size: 1rem;
+}
+
+/* --- General Styles --- */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;/*rgb(60,60,65);*/
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2  {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3rem;
+  text-align: left;
+  /*margin-left: 2rem;*/
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  text-transform: bold;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03a9f4;
+  background-color: white;
+  /*background-color: #efefef;*/
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+[class*=grid] {
+  margin: 0;
+}
+
+.col, [class*=col-] {
+  padding:0;
+}
+
+.relative {
+  position: relative;
+}
+
+/* --- Header --- */
+header {
+  background-color: white;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .logo{
+  padding: 0.5rem 1rem;
+}
+
+header .logo img{
+  width: 12rem;
+}
+
+header nav {
+  text-align: right;
+}
+
+header .nav-link {
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+}
+
+header nav a {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  padding: 0.5rem 0.8rem;
+  color: #555;
+  border-radius: 5px;
+}
+
+/* --- CALL TO ACTION BUTTON --- */
+.btn {
+  padding: 0.3rem 1rem;
+  margin: 5px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #3949ab;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-action {
+  background-color: #03a9f4;
+}
+
+.btn-action2 {
+  background-color: #e31d1a;
+}
+
+.btn-action3 {
+  background-color: #00ad48;
+}
+
+.btn:hover {
+  color: #03a9f4;
+  /* background-color: #525252; */
+}
+
+/* --- Homepage --- */
+/* --- Intro Section --- */
+.background-section {
+  position: relative;
+}
+
+.intro-section {
+  background-image: url("../images/melissaanddougsplash.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 82vh;
+}
+
+.intro-section-content {
+  text-align: center;
+  color: white;
+  position: absolute;
+  right: 2rem;
+  padding: 2rem;
+}
+
+.intro-section-content h2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro2-section-content{
+  text-align: center;
+  color: white;
+  background-color: rgba(246, 136, 31, 0.64);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.main-tile {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.main-tile h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #03a9f4;
+}
+
+.main-tile p{
+  margin-bottom: 0.5rem;
+}
+
+.main-section{
+  background-color:white;
+}
+
+.main-section-content{
+  text-align: center;
+  color: #555;
+}
+
+/*--Main Page for STORY--*/
+.story-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
+}
+
+.story-tile {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 50em;
+  text-align: justify;
+}
+
+.story-image {
+    min-height: 18rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.story-section-content h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #03a9f4;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.story-section-content h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0.5rem 4rem 1.5rem 4rem;
+}
+
+.story-section-content p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 3rem;
+}
+
+@media only screen and (max-width: 64em) {
+  .story-flip {
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-direction: column-reverse; /* Safari 6.1+ */
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
+/*--Main Page for TOYS--*/
+.toys-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
+}
+
+.toys-blurb {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 50em;
+  text-align: justify;
+}
+
+.toys-blurb-content h3 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  color: #03a9f4;
+  text-align: center;
+  margin: 1rem;
+}
+
+.toys-blurb-content p {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #03a9f4;
+  text-align: center;
+  margin: 1rem;
+}
+
+.toyslist-tile {
+  padding: 0;
+  margin: 0;
+}
+
+.toyslist-tile h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toyslist-tile p {
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.toyslist-section-content1{
+  color: white;
+  background-color: #03a9f4;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #555;
+}
+
+.toyslist-section-content2{
+  color: white;
+  background-color: #10a252;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #555;
+}
+
+.toyslist-section-content3{
+  color: white;
+  background-color: #ff9800;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #555;
+  margin-left: 0;
+}
+
+.toys-image {
+    min-height: 18rem;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 64em) {
+  .toys-flip {
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-direction: column-reverse; /* Safari 6.1+ */
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
+
+/*--Main Page for STORES--*/
+
+.stores-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
+}
+
+.stores-heading h3{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #ff9800;
+}
+
+.stores-section{
+  padding: 3rem;
+}
+
+.storeslist-tile{
+  padding-bottom: 1rem;
+}
+
+.stores-logo {
+  max-height: 20rem;
+}
+
+.stores-image {
+  min-height: 20rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/*--Main Page for ONLINE SHOP LINKS--*/
+.online-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
+}
+
+.shop-section{
+  padding: 2rem;
+}
+
+.shoplist-tile{
+  padding: 2rem;
+}
+
+/*--Main Page for Community and Bloggers
+
+TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
+
+--*/
+.community-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
+}
+
+.community-section-content{
+  padding: 1rem;
+  margin: 0;
+}
+
+.blogger-image{
+  min-height: 18rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/*--Contact Page--*/
+.contactform-section {
+  background-image: url("../images/contactjefintoys.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.contactform-section-content{
+  text-align: center;
+  color: white;
+  background-color: #3f51b5;
+  position: absolute;
+  right: 0;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.contactform2-section-content{
+  text-align: center;
+  color: white;
+  background-color: #3f51b5;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.message-section{
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  color: white;
+  background-color: #3f51b5;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 64em) {
+  .message-section{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: #3f51b5;
+    padding: 1rem;
+    border-radius: 10px;
+    }
+}
+
+.terms-page{
+  margin: 0 auto;
+  max-width: 50em;
+  text-align: justify;
+  padding: 3rem;
+}
+
+.terms-page h2{
+  margin-bottom: 2rem;
+}
+
+.terms-page h3{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* --- Footer ---*/
+footer {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+footer nav a {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color:#555;
+  padding: 1rem 1rem;
+}
+
+footer .footer-links i{
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+footer .footer-docs {
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+footer .footer-copyright {
+  font-size: 0.8rem;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+
+
+/*--UNDER CONSTRUCTION MESSAGES --*/
+.under-construction h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: #e31d1a;
+}
+
+
+
+/*--Media Queries--*/
+/*--hide and show for desktop or tablet--*/
+.tablet-show {
+  display: none;
+}
+
+@media (max-width: 64em){
+  .desktop-show{
+    display:none;
+  }
+  .tablet-show{
+    display: block;
+  }
+}

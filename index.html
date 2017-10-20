@@ -1,0 +1,81 @@
+---
+layout: default
+
+intro:
+  - title: MALAYSIA DISTRIBUTOR
+
+main:
+  - name: Our Toys
+    des: We encourage creativity, free play, learning, imagination and discovery!
+    click1: toys
+    click2: learn more
+    pic: melissaanddougourtoys.png
+  - name: Store Finder
+    des: You can find our toys in leading stores nationwide and online!
+    click1: stores
+    click2: where to buy
+    pic: melissaanddougstores.png
+  - name: Our Story
+    des: We make toys and other products that offer Countless Ways to Play!
+    click1: story
+    click2: about us
+    pic: melissaanddougcommunity.png
+
+---
+
+<!--home page blurb-->
+  <section class="background-section">
+    <div class="intro-section relative">
+
+        <div class="intro-section-content desktop-show">
+            <img src="images/md_logo.png">
+            {% for intro in page.intro %}
+            <div>
+              <h2> {{intro.title}} </h2>
+            </div>
+            {% endfor %}
+            <div class="link-block">
+              <a href="https://www.facebook.com/jefintoys" target="_blank" class="btn btn-action2">Contact Us</a>
+            </div>
+        </div>
+
+<!--move blurb on mobile view to bottom-->
+        <div class="intro2-section-content relative tablet-show">
+          <img src="images/md_logo.png">
+          {% for intro in page.intro %}
+            <div>
+              <h2>{{intro.title}}</h2>
+            </div>
+          {% endfor %}
+            <div class="link-block">
+              <a href="https://www.facebook.com/jefintoys" target="_blank" class="btn btn-action2">Contact Us</a>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+<!--main homepage section-->
+<section class="main-section">
+  <div class="main-section-content">
+    <section>
+      <div class="grid-equalheight">
+        {% for main in page.main %}
+        <div class="col-4_md-12 main-tile">
+          <h2>{{main.name}}</h2>
+          <p>{{main.des}}</p>
+            <div>
+              <div class="link-block">
+                <a href="/{{main.click1}}" class="btn btn-action">{{main.click2}}</a>
+              </div>
+            </div>
+          <img src="/images/{{main.pic}}" alt="">
+        </div>
+        {% endfor %}
+
+      </div>
+    </section>
+  </div>
+</section>
+
+    {% include message.html %}
