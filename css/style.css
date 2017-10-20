@@ -411,6 +411,14 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
   background-color: #3949ab;
 }
 
+.community-section{
+  padding: 3rem;
+}
+
+.community-tile{
+  padding-bottom: 1rem;
+}
+
 .community-section-content{
   padding: 1rem;
   margin: 0;
@@ -419,7 +427,7 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
 .blogger-image{
   min-height: 18rem;
   background-size: cover;
-  background-position: 50% 10%;
+  background-position: center;
 }
 
 /*--Contact Page--*/
