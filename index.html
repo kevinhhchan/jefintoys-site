@@ -1,7 +1,10 @@
 ---
 layout: default
 
-intro:
+intro1:
+  - title: MALAYSIA DISTRIBUTOR
+
+intro2:
   - title: MALAYSIA DISTRIBUTOR
 
 main:
@@ -29,9 +32,9 @@ main:
 
         <div class="intro-section-content desktop-show">
             <img src="images/md_logo.png">
-            {% for intro in page.intro %}
+            {% for intro1 in page.intro1 %}
             <div>
-              <h2> {{intro.title}} </h2>
+              <h1> {{intro1.title}} </h1>
             </div>
             {% endfor %}
             <div class="link-block">
@@ -45,9 +48,9 @@ main:
           <div class="link-block">
             <a href="https://www.facebook.com/jefintoys" target="_blank" class="btn btn-action">Contact Us</a>
           </div>
-          {% for intro in page.intro %}
+          {% for intro2 in page.intro2 %}
             <div>
-              <h2>{{intro.title}}</h2>
+              <h2>{{intro2.title}}</h2>
             </div>
           {% endfor %}
         </div>
