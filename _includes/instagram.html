@@ -1,0 +1,17 @@
+<div class="pagetop-blurb pagetop-blurb-content">
+  <h3>
+      @jefintoys - <a href="https://www.instagram.com/jefintoys/" target="_blank">Follow and tag us</a> on Instagram!
+  </h3>
+  <p>
+    #jefintoys #MelissaAndDoug #TakeBackChildhood
+  <p>
+</div>
+
+<div class="grid-equalheight">
+  {% for instapix in page.instapix %}
+  <div class="col-2_sm-6">
+    <a href="https://www.instagram.com/jefintoys/" target="_blank">
+      <img src="/images/{{instapix.pic}}" alt="">
+  </div>
+  {% endfor %}
+</div>
