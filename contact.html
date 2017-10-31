@@ -1,49 +1,21 @@
 ---
 layout: default
+
+instapix:
+  - pic: instagram01.jpg
+  - pic: instagram02.jpg
+  - pic: instagram03.jpg
+  - pic: instagram04.jpg
+  - pic: instagram05.jpg
+  - pic: instagram06.jpg
+
 ---
 
-<!-- Contact Form page
-<section class="background-section">
-  <div class="contactform-section">
-
-    <div class="contactform-section-content desktop-show">
-      <div>
-        <h2>Get In Touch!</h2>
-        <p>
-          If you're a blogger or parent who would like to find out more about us, we'd love to hear from you!
-        </p>
-      </div>
-        <div class="link-block">
-          <a href="https://www.facebook.com/jefintoys" class="btn btn-action3">Message Us On Facebook!</a>
-        </div>
-      </div>
-
-    <div class="contactform2-section-content tablet-show">
-      <div>
-        <h2>Get In Touch!</h2>
-        <p>
-          If you're a blogger or parent who would like to find out more about us, we'd love to hear from you!
-        </p>
-      </div>
-        <div class="link-block">
-          <a href="https://www.facebook.com/jefintoys" class="btn btn-action3">Message Us On Facebook!</a>
-        </div>
-      </div>
-    </div>
-  </section>
--->
+<!-- Contact Form page-->
 
 <section class="stores-banner">
   <h2>Get In Touch With Us!</h2>
 </section>
-
-<!--
-<div class="pagetop-blurb pagetop-blurb-content">
-  <h3>
-    If you're a store interested in retailing Melissa & Doug, a teacher or blogger or parent who'd like to find out more, we'd love to hear from you!
-  </h3>
-</div>
--->
 
 
 <form action="https://formspree.io/wholesale@jefintoys.com" method="POST">
@@ -74,7 +46,6 @@ layout: default
   </div>
 </form>
 
-
 <div class="pagetop-blurb pagetop-blurb-content">
   <h3>
     @jefintoys - Follow and tag us on Instagram!
@@ -84,6 +55,12 @@ layout: default
   <p>
 </div>
 
-<!-- LightWidget WIDGET -->
-<script src="//lightwidget.com/widgets/lightwidget.js">
-</script><iframe src="//lightwidget.com/widgets/24087b8034a5556bbf5cf117d5655328.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+  <div class="grid-equalheight">
+    {% for instapix in page.instapix %}
+    <div class="col-2_sm-6">
+      <a href="https://www.instagram.com/jefintoys/" target="_blank">
+        <img src="/images/{{instapix.pic}}" alt="">
+    </div>
+    {% endfor %}
+  </div>
