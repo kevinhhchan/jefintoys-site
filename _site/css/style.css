@@ -569,18 +569,17 @@ footer nav a {
   padding: 1rem 1rem;
 }
 
-footer .footer-links i{
-  font-size: 10px;
+.footer-links {
   padding-top: 10px;
   padding-bottom: 0px;
 }
 
-footer .footer-docs {
+.footer-docs {
   padding-top: 15px;
   padding-bottom: 0px;
 }
 
-footer .footer-copyright {
+.footer-copyright {
   font-size: 0.8rem;
   padding-top: 15px;
   padding-bottom: 0px;
