@@ -259,22 +259,16 @@ header nav a {
     }
 }
 
-/*--Main Page for TOYS--*/
-.toys-banner h2{
-  font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 2.5rem;
-  color: white;
-  background-color: #3949ab;
-}
+/*---Heading blurbs on Pages---*/
 
-.toys-blurb {
+.pagetop-blurb {
   padding: 0;
   margin: 0 auto;
   max-width: 50em;
   text-align: justify;
 }
 
-.toys-blurb-content h3 {
+.pagetop-blurb-content h3 {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2rem;
   color: #03a9f4;
@@ -282,12 +276,21 @@ header nav a {
   margin: 1rem;
 }
 
-.toys-blurb-content p {
+.pagetop-blurb-content p {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 1.5rem;
   color: #03a9f4;
   text-align: center;
   margin: 1rem;
+}
+
+
+/*--Main Page for TOYS--*/
+.toys-banner h2{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #3949ab;
 }
 
 .toyslist-tile {
