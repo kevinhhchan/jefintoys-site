@@ -523,6 +523,7 @@ form input[type="checkbox"]{
 form input[type="submit"] {
   background-color: #00ad48;
   color: white;
+  display: inline-block;
   border: none;
 }
 
