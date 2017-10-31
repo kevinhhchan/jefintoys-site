@@ -476,6 +476,56 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
   border-radius: 10px;
 }
 
+.link-block{
+  text-align: center;
+}
+
+/* FORMS */
+
+.padded {
+  padding: 2%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #555;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label {
+  margin: 1rem 0 0;
+  display: inline-block;
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+form input[type="checkbox"]{
+  margin: 0 1rem;
+  width: auto;
+  display: inline-block;
+}
+
+.checkboxes p {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.checkboxes {
+  margin: 0 0 1.5rem;
+}
+
+form input[type="submit"] {
+  background-color: #00ad48;
+  color: white;
+  border: none;
+}
+
 @media only screen and (max-width: 64em) {
   .message-section{
     margin: auto;
