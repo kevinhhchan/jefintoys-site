@@ -17,31 +17,33 @@ instapix:
   <h2>Get In Touch With Us!</h2>
 </section>
 
-
 <form action="https://formspree.io/wholesale@jefintoys.com" method="POST">
-  <div class="grid-equalheight">
-    <div class="col-6_sm-12 padded">
+  <div class="grid-center">
+    <div class="col-4_sm-12 padded">
       <label for="name"> Your Name </label>
-      <input type="text" name="name" id="name" placeholder="Name"/>
-
+        <input type="text" name="name" id="name" placeholder="Name"/>
       <label for="email"> Your Email </label>
-      <input type="email" name="_replyto" id="email" placeholder="Email Address">
-
+        <input type="email" name="_replyto" id="email" placeholder="Email Address">
       <label for="phone"> Your Phone Number </label>
-      <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
+        <input type="tel" name="phone" id="phone" placeholder="+(Country Code) Phone Number">
     </div>
-    <div class="col-6_sm-12 padded">
+    <div class="col-4_sm-12 padded">
       <label>I'm interested in...</label>
-      <div class="checkboxes">
-        <p><input type="checkbox" name="interest" value="retailer" />Retailing Melissa & Doug in my store
-        </p>
-        <p><input type="checkbox" name="interest" value="blogger" />Blogging about Melissa & Doug
-        </p>
-        <p><input type="checkbox" name="interest" value="parent" />Finding out more about our products
-        </p>
-      </div>
-      <textarea name="message" id="message" placeholder="Your Message"></textarea>
-      <input type="submit" value="Submit Contact Form"/>
+        <div class="checkboxes">
+          <p><input type="checkbox" name="interest" value="retailer" />Retailing Melissa & Doug in my store
+          </p>
+          <p><input type="checkbox" name="interest" value="blogger" />Blogging about Melissa & Doug
+          </p>
+          <p><input type="checkbox" name="interest" value="parent" />Finding out more about our products
+          </p>
+        </div>
+      <label for="message"> Your Message </label>
+        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+    </div>
+  </div>
+  <div class="grid-center">
+    <div class="col-4_sm-12 padded">
+      <input type="submit" value="Send" class="btn"/>
       <input type="hidden" name="_next" value="/thanks" />
     </div>
   </div>
