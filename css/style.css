@@ -16,7 +16,7 @@ html {
 /* --- General Styles --- */
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #555;/*rgb(60,60,65);*/
+  color: #555;
 }
 
 h1 {
@@ -34,7 +34,6 @@ h2  {
 h3 {
   font-size: 1.3rem;
   text-align: left;
-  /*margin-left: 2rem;*/
   margin-bottom: 0.5rem;
 }
 
@@ -115,8 +114,8 @@ header nav a {
 
 /* --- CALL TO ACTION BUTTON --- */
 .btn {
-  padding: 0.3rem 1rem;
-  margin: 5px;
+  padding: 0.5rem 1rem;
+  margin: 10px;
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
@@ -190,6 +189,10 @@ header nav a {
   padding: 0.5rem;
 }
 
+.homepic {
+  padding: 1rem;
+}
+
 .main-tile {
   padding: 1rem 2rem 1rem 2rem;
 }
@@ -234,25 +237,38 @@ header nav a {
     background-position: center;
 }
 
+.story-section-content {
+  padding: 1rem 2rem;
+}
+
 .story-section-content h2 {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2.5rem;
   color: #03a9f4;
   text-align: center;
-  margin-top: 1rem;
+}
+
+.storyblurb1 {
+  padding: 1rem;
 }
 
 .story-section-content h3 {
   font-size: 1.2rem;
   font-style: italic;
   text-align: center;
-  margin: 0.5rem 4rem 1.5rem 4rem;
+}
+
+.storyblurb2 {
+  padding-bottom: 1rem;
 }
 
 .story-section-content p {
   font-size: 1rem;
   text-align: center;
-  margin: 1rem 3rem;
+}
+
+.storytext {
+  padding: 0 1rem;
 }
 
 @media only screen and (max-width: 64em) {
@@ -271,6 +287,7 @@ header nav a {
   margin: 0 auto;
   max-width: 50em;
   text-align: justify;
+  padding: 1rem;
 }
 
 .pagetop-blurb-content h3 {
@@ -305,7 +322,7 @@ header nav a {
 
 .toyslist-tile h2 {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -320,7 +337,7 @@ header nav a {
 .toyslist-section-content1{
   color: white;
   background-color: #03a9f4;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
   text-align: center;
   color: #555;
@@ -329,7 +346,7 @@ header nav a {
 .toyslist-section-content2{
   color: white;
   background-color: #10a252;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
   text-align: center;
   color: #555;
@@ -338,7 +355,7 @@ header nav a {
 .toyslist-section-content3{
   color: white;
   background-color: #ff9800;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
   text-align: center;
   color: #555;
@@ -383,7 +400,7 @@ header nav a {
 }
 
 .storeslist-tile{
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .stores-logo {
@@ -394,6 +411,7 @@ header nav a {
   min-height: 20rem;
   background-size: cover;
   background-position: center;
+  padding-bottom: 3rem;
 }
 
 /*--Main Page for ONLINE SHOP LINKS--*/
@@ -413,9 +431,7 @@ header nav a {
 }
 
 /*--Main Page for Community and Bloggers
-
 TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
-
 --*/
 .community-banner h2{
   font-family: 'Saira Extra Condensed', sans-serif;
@@ -439,7 +455,6 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
 
 .blogger-image{
   min-height: 20rem;
-
 }
 
 /*--Contact Page--*/
@@ -485,8 +500,7 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
   text-align: center;
 }
 
-/* FORMS */
-
+/* CONTACT FORMS */
 .padded {
   padding: 2%;
 }
