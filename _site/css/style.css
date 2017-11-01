@@ -74,6 +74,10 @@ nav a:hover {
   padding:0;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -171,10 +175,6 @@ header nav a {
   padding: 2rem;
 }
 
-.intro2-section-content h2{
-  margin-bottom: 1.5rem;
-}
-
 .intro2-section-content{
   text-align: center;
   color: white;
@@ -182,7 +182,7 @@ header nav a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 1.5rem 0.5rem;
 }
 
 .mdlogo {
@@ -201,10 +201,6 @@ header nav a {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2.5rem;
   color: #03a9f4;
-}
-
-.main-tile p{
-  margin-bottom: 0.5rem;
 }
 
 .main-section{
@@ -232,9 +228,9 @@ header nav a {
 }
 
 .story-image {
-    min-height: 18rem;
-    background-size: cover;
-    background-position: center;
+  min-height: 18rem;
+  background-size: cover;
+  background-position: center;
 }
 
 .story-section-content {
@@ -295,7 +291,6 @@ header nav a {
   font-size: 2rem;
   color: #03a9f4;
   text-align: center;
-  margin: 1rem;
 }
 
 .pagetop-blurb-content p {
@@ -303,9 +298,7 @@ header nav a {
   font-size: 1.5rem;
   color: #03a9f4;
   text-align: center;
-  margin: 1rem;
 }
-
 
 /*--Main Page for TOYS--*/
 .toys-banner h2{
@@ -324,14 +317,18 @@ header nav a {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2.5rem;
   color: white;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+}
+
+.toysblurb {
+  padding: 0 1rem 1rem 1rem;
 }
 
 .toyslist-tile p {
   color: white;
-  margin-left: 2rem;
-  margin-right: 2rem;
+}
+
+.toystext {
+  padding: 0 2rem;
 }
 
 .toyslist-section-content1{
@@ -377,9 +374,7 @@ header nav a {
     }
 }
 
-
 /*--Main Page for STORES--*/
-
 .stores-banner h2{
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2.5rem;
@@ -492,7 +487,7 @@ TO BE COMPLETED ONCE CHECKING WITH INFLUENCERS
   text-align: center;
   color: white;
   background-color: #3f51b5;
-  padding: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
   border-radius: 10px;
 }
 
@@ -540,7 +535,7 @@ form input[type="checkbox"]{
 }
 
 form input[type="submit"] {
-  background-color: #00ad48;
+  background-color: #e31d1a;
   color: white;
   text-transform: uppercase;
   display: inline-block;
@@ -549,8 +544,8 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: white;
-  color: #00ad48;
+  color: white;
+  background-color: #00ad48;
 }
 
 @media only screen and (max-width: 64em) {
