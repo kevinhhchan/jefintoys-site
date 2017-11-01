@@ -42,22 +42,22 @@ instapix:
           <div>
             <h1>OFFICIAL DISTRIBUTOR FOR</h1>
           </div>
-            <img src="images/md_logo.png">
+            <a href="http://www.melissaanddoug.com/" target="_blank"><img src="images/md_logo.png"></a>
             {% for intro1 in page.intro1 %}
             <div>
               <h1> {{intro1.title}} </h1>
             </div>
             {% endfor %}
             <div class="link-block">
-              <a href="/contact" class="btn btn-action">Contact Us</a>
+              <a href="/contact" class="btn btn-action1">Contact Us</a>
             </div>
         </div>
 
 <!--move blurb on mobile view to bottom-->
         <div class="intro2-section-content relative tablet-show">
-          <img src="images/md_logo.png">
+          <a href="http://www.melissaanddoug.com/" target="_blank"><img src="images/md_logo.png"></a>
           <div class="link-block">
-            <a href="/contact" class="btn btn-action">Contact Us</a>
+            <a href="/contact" class="btn btn-action1">Contact Us</a>
           </div>
           {% for intro2 in page.intro2 %}
             <div>
@@ -80,7 +80,7 @@ instapix:
           <p>{{main.des}}</p>
             <div>
               <div class="link-block">
-                <a href="/{{main.click1}}" class="btn btn-action">{{main.click2}}</a>
+                <a href="/{{main.click1}}" class="btn btn-action1">{{main.click2}}</a>
               </div>
             </div>
           <img src="/images/{{main.pic}}" alt="">

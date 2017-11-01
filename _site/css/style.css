@@ -54,10 +54,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: #03a9f4;
   background-color: white;
-  /*background-color: #efefef;*/
 }
 
 .left {
@@ -120,20 +119,16 @@ header nav a {
   margin: 5px;
   font-size: 1.2rem;
   color: white;
-  background-color: #3949ab;
   text-decoration: none;
-  color: white;
   border-radius: 5px;
   display: inline-block;
 }
 
-.btn-action {
+.btn-action1 {
   background-color: #03a9f4;
 }
 
 .btn-action2 {
-  /*background-color: #e31d1a;
-  background-color: #525252;*/
   color: #03a9f4;
   background-color: #efefef;
 }
@@ -142,12 +137,18 @@ header nav a {
   background-color: #00ad48;
 }
 
-.btn:hover {
+.btn-action1:hover {
   color: #03a9f4;
+  background-color: white;
 }
 
 .btn-action2:hover {
   background-color: #525252;
+}
+
+.btn-action3:hover {
+  color: #03a9f4;
+  background-color: white;
 }
 
 /* --- Homepage --- */
@@ -523,8 +524,15 @@ form input[type="checkbox"]{
 form input[type="submit"] {
   background-color: #00ad48;
   color: white;
+  text-transform: uppercase;
   display: inline-block;
   border: none;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  background-color: white;
+  color: #00ad48;
 }
 
 @media only screen and (max-width: 64em) {
@@ -569,7 +577,7 @@ footer nav a {
   padding: 1rem 1rem;
 }
 
-.icon nav a{
+.icon a{
   /* Lets the icon inherit the text color. */
   fill: currentColor;
 
@@ -593,7 +601,7 @@ footer nav a {
 
 .icon:hover nav a{
   /* Change the fill color */
-  color: blue;
+  color: #03a9f4;
   /* Change the vertical-align if you need more precision
      (sometimes needed for pixel-perfect rendering) */
   vertical-align: top;
@@ -609,18 +617,6 @@ footer nav a {
   padding-top: 15px;
   padding-bottom: 0px;
 }
-
-
-
-/*--UNDER CONSTRUCTION MESSAGES --*/
-.under-construction h2{
-  font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: #e31d1a;
-}
-
 
 
 /*--Media Queries--*/
