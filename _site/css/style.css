@@ -560,18 +560,6 @@ form input[type="submit"]:hover {
   background-color: #03a9f4;
 }
 
-@media only screen and (max-width: 64em) {
-  .message-section{
-    margin: auto;
-    width: 80%;
-    text-align: center;
-    color: white;
-    background-color: #3f51b5;
-    padding: 1rem;
-    border-radius: 10px;
-    }
-}
-
 .terms-page{
   margin: 0 auto;
   max-width: 50em;
@@ -648,5 +636,24 @@ footer nav a {
   }
   .tablet-show{
     display: block;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .message-section{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: #3f51b5;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .stores-section{
+    padding: 3rem 2rem;;
+  }
+  .footer-docs {
+    margin-top: 0;
+    padding: 0;
   }
 }
