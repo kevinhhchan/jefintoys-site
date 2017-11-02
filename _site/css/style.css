@@ -632,10 +632,13 @@ footer nav a {
   padding: 0;
 }
 
+.footer-to-top {
+  margin-top: 1rem;
+}
+
 .footer-copyright {
   font-size: 0.8rem;
   padding-top: 15px;
-  padding-bottom: 0px;
 }
 
 
