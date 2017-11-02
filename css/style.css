@@ -202,7 +202,7 @@ header nav a {
 }
 
 .main-tile {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 1rem 0;
 }
 
 .main-tile h2{
