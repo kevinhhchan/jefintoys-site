@@ -113,13 +113,12 @@ header nav {
 }
 
 header .nav-link {
-  font-size: 1.2rem;
   padding: 1rem 1rem;
 }
 
 header nav a {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 0.5rem 0.8rem;
   color: #555;
   border-radius: 5px;
@@ -297,14 +296,14 @@ header nav a {
 
 .pagetop-blurb-content h3 {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #03a9f4;
   text-align: center;
 }
 
 .pagetop-blurb-content p {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #03a9f4;
   text-align: center;
 }
@@ -594,7 +593,7 @@ footer {
 
 footer nav a {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color:#555;
   padding: 1rem 1rem;
