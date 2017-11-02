@@ -594,6 +594,10 @@ footer {
   text-align: center;
 }
 
+footer .nav-link {
+  padding: 1rem 1rem;
+}
+
 footer nav a {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 1.8rem;
@@ -631,7 +635,6 @@ footer nav a {
   font-size: 0.8rem;
   padding-top: 15px;
 }
-
 
 /*--Media Queries--*/
 /*--hide and show for desktop or tablet--*/
