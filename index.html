@@ -7,23 +7,6 @@ intro1:
 intro2:
   - title: MALAYSIA DISTRIBUTOR
 
-main:
-  - name: Our Story
-    des: Jefin Toys distributes Melissa & Doug products that offer children Countless Ways to Play!
-    click1: story
-    click2: about us
-    pic: melissaanddougcommunity.png
-  - name: Our Toys
-    des: Melissa & Doug toys encourage creativity, free play, learning, imagination and discovery!
-    click1: toys
-    click2: learn more
-    pic: melissaanddougourtoys.png
-  - name: Our Stores
-    des: You can find Melissa & Doug in stores all across Malaysia and online through Jefin Toys!
-    click1: stores
-    click2: where to buy
-    pic: melissaanddougstores.png
-
 instapix:
   - pic: instagram01.jpg
   - pic: instagram02.jpg
@@ -71,30 +54,7 @@ instapix:
   </div>
 </section>
 
-<!--main homepage section-->
-<section class="main-section">
-  <div class="main-section-content">
-    <section>
-      <div class="grid-equalheight">
-        {% for main in page.main %}
-        <div class="col-4_md-12 main-tile">
-          <h2>{{main.name}}</h2>
-          <p>{{main.des}}</p>
-            <div>
-              <div class="link-block">
-                <a href="/{{main.click1}}" class="btn btn-action1">{{main.click2}}</a>
-              </div>
-            </div>
-          <div class="homepic">
-            <img src="/images/{{main.pic}}" alt="">
-          </div>
-        </div>
-        {% endfor %}
 
-      </div>
-    </section>
-  </div>
-</section>
-
+    {% include main.html %}
     {% include message.html %}
     {% include instagram.html %}
