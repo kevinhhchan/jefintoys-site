@@ -1,0 +1,5 @@
+/about-us/ /story
+/contact-us/ /contact
+/open-account/ /contact
+/terms-and-conditions-of-website-use/ /terms
+/privacy-policy/ /privacy
